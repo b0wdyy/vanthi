@@ -103,6 +103,18 @@
       }
     }
   }
+
+  &__maps {
+    img {
+      height: 480px;
+
+      margin-top: 9rem;
+
+      border: 1px solid $top-nav-border;
+
+      box-shadow: 0 4px 2px -2px $gray;
+    }
+  }
 }
 
 .contact-details {
