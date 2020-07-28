@@ -1,0 +1,14 @@
+.hero__footer {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero__text {
+    padding-top: 0;
+    &__main {
+      width: 600px;
+    }
+  }
+}
