@@ -1,4 +1,12 @@
 @import "reset";
-@import "variables";
+@import "./top_nav";
+@import "./main_nav";
+@import "./hero/hero";
+@import "./hero/small_hero.scss";
+@import "./intro";
+@import "./list";
+@import "./services";
+@import "./hero_footer";
+@import "./footer";
 @import "./page_styles/index";
 @import "./page_styles/contact";

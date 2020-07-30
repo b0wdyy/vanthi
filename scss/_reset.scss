@@ -60,3 +60,20 @@ ul {
 .hours {
   color: $text-blue;
 }
+
+.filter-options {
+  color: $black;
+
+  input[type="checkbox"] {
+    margin-right: 0.8rem;
+  }
+
+  li {
+    margin-bottom: 0.4rem;
+  }
+}
+
+.promotion-text {
+  color: $text-blue;
+  margin-top: 1rem;
+}
