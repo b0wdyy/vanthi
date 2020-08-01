@@ -130,6 +130,51 @@
     }
   }
 
+  &__card {
+    width: 400px;
+    background: $white;
+    border: 1px solid $top-nav-border;
+    border-radius: 3px;
+
+    box-shadow: 0 4px 2px -2px $gray;
+
+    padding: 20px 30px;
+
+    p {
+      color: $text-blue;
+    }
+
+    button {
+      display: inline-block;
+      width: 100%;
+      padding: 20px 0;
+      margin: 2rem 0;
+
+      font-size: 0.8rem;
+
+      background: transparentize($primary-blue, $amount: 0.94);
+      color: $primary-blue;
+
+      border: none;
+      border-radius: 3px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        padding: 10px 25px;
+
+        border: 1px solid transparentize($primary-blue, $amount: 0.94);
+
+        a {
+          color: $primary-blue;
+        }
+      }
+    }
+  }
+
   &__maps {
     img {
       height: 480px;
