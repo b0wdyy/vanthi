@@ -1,7 +1,4 @@
 .intro {
-  height: 50rem;
-  margin-top: 4rem;
-
   position: relative;
 
   border-bottom: 1px solid $gray;
@@ -52,10 +49,12 @@
           background-repeat: no-repeat;
           width: 120px;
           height: 120px;
+
+          position: absolute;
           top: -30px;
           left: -40px;
 
-          position: absolute;
+          z-index: -10;
         }
       }
 
@@ -69,7 +68,7 @@
       }
 
       p:nth-of-type(2) {
-        width: 850px;
+        max-width: 850px;
         margin: 0 auto;
       }
     }

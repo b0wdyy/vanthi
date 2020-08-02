@@ -1,5 +1,3 @@
-@import "variables";
-
 *,
 *::before,
 *::after {
@@ -29,6 +27,38 @@ ul {
   margin: 0 auto;
 }
 
+.burger {
+  width: 30px;
+  height: 20px;
+
+  display: none;
+
+  cursor: pointer;
+
+  span {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 2px;
+    background: $primary-blue;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+
+    &:nth-child(2) {
+      width: 50%;
+    }
+
+    &:nth-child(3) {
+      width: 75%;
+      align-self: flex-end;
+    }
+  }
+}
+
 .CTA {
   padding-bottom: 1rem;
 }
@@ -49,6 +79,7 @@ ul {
 
   color: $primary-blue;
   padding: 6px 10px;
+  margin: 5px 0;
 
   border-radius: 3px;
 }

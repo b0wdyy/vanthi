@@ -18,6 +18,11 @@
       display: flex;
       align-items: center;
 
+      transition: 0.4s ease;
+      &:hover {
+        background: darken($top-nav-button-gray, $amount: 20);
+      }
+
       a {
         color: $primary-gray;
 
@@ -36,8 +41,14 @@
       }
     }
 
+    &:hover {
+      background: darken($top-nav-button-green, $amount: 0.7);
+    }
+
     background: lighten($top-nav-button-green, $amount: 25);
     border-radius: 3px;
+
+    transition: 0.4s ease;
 
     a {
       color: $top-nav-button-text;

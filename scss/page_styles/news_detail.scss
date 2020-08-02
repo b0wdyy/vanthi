@@ -14,7 +14,7 @@
 
         border-bottom: 1px solid $top-nav-border;
 
-        width: 700px;
+        max-width: 700px;
 
         &::before {
           display: inline-block;
@@ -40,7 +40,7 @@
       article {
         padding: 1rem 0;
         border-bottom: 1px solid $top-nav-border;
-        width: 700px;
+        max-width: 700px;
         h3 {
           color: $primary-blue;
         }

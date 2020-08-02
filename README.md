@@ -16,7 +16,7 @@ TODO VANTHI
 
 [X] NEWS
 
-- [ongoing] NEWS DETAIL
+- [x] NEWS DETAIL
 
 [] USEFUL LINKS
 
